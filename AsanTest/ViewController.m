@@ -189,10 +189,27 @@
         
         
 
-        GTLPersonendpointPersonInfoWrapper *personInfoWrapper=[GTLPersonendpointPersonInfoWrapper alloc];
-        GTLPersonendpointDeviceInfo *deviceinfo=[GTLPersonendpointDeviceInfo alloc];
-        GTLPersonendpointPersonProfile *personalProfile=[GTLPersonendpointPersonProfile alloc];
-        GTLPersonendpointPersonCredentials *personCredintial=[GTLPersonendpointPersonCredentials alloc];
+       static GTLPersonendpointPersonInfoWrapper *personInfoWrapper=nil;
+        if(personInfoWrapper==nil){
+            personInfoWrapper=[GTLPersonendpointPersonInfoWrapper alloc];
+        }
+        static GTLPersonendpointDeviceInfo *deviceinfo=nil;//;
+        if(deviceinfo==nil){
+            deviceinfo= [GTLPersonendpointDeviceInfo alloc];
+            
+        }
+        
+        
+        static GTLPersonendpointPersonProfile *personalProfile=nil;
+        if(personalProfile==nil){
+            personalProfile=[GTLPersonendpointPersonProfile alloc];
+        }
+        
+        static GTLPersonendpointPersonCredentials *personCredintial=nil;
+        
+        if(personCredintial==nil){
+            personCredintial=[GTLPersonendpointPersonCredentials alloc];
+        }
 
 
 
@@ -224,13 +241,15 @@
         personCredintial.userId=@"";
         [personCredintial setToken:@"password"];
         
-        
-        
-
+       
         
         
        // NSLog(@"log %@",[personInfoWrapper.personProfile description]);
-        GTLQueryPersonendpoint *querry=[GTLQueryPersonendpoint queryForNativeSignupWithObject:personInfoWrapper];
+        static GTLQueryPersonendpoint *querry=nil;
+        if(querry==nil){
+            querry=[GTLQueryPersonendpoint queryForNativeSignupWithObject:personInfoWrapper];
+
+        }
        
     
         static GTLServicePersonendpoint *service = nil;
@@ -249,6 +268,8 @@
             
             NSLog(@"Signpu error: %@",[error.userInfo description]);
             NSLog(@"Signup object %@",[object description]);
+            
+            NSLog(@"device info %@",[personInfoWrapper.deviceInfo description]);
             
             
         }];

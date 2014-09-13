@@ -21,9 +21,6 @@
 		9A61B7E119BD8A8400136883 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A61B7C319BD8A8300136883 /* UIKit.framework */; };
 		9A61B7E919BD8A8400136883 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A61B7E719BD8A8400136883 /* InfoPlist.strings */; };
 		9A61B7EB19BD8A8400136883 /* AsanTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A61B7EA19BD8A8400136883 /* AsanTestTests.m */; };
-		9A61B87719BD8BB600136883 /* GoogleOpenSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A61B81719BD8BB600136883 /* GoogleOpenSource.framework */; };
-		9A61B87819BD8BB600136883 /* GooglePlus.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9A61B81819BD8BB600136883 /* GooglePlus.bundle */; };
-		9A61B87919BD8BB600136883 /* GooglePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A61B81919BD8BB600136883 /* GooglePlus.framework */; };
 		9A61B8A519BD8C7F00136883 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A61B8A419BD8C7F00136883 /* AddressBook.framework */; };
 		9A61B8A719BD8C8600136883 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A61B8A619BD8C8600136883 /* AssetsLibrary.framework */; };
 		9A61B8A919BD8C9F00136883 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A61B8A819BD8C9F00136883 /* CoreLocation.framework */; };
@@ -33,16 +30,19 @@
 		9A61B8B119BD8CDB00136883 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A61B8B019BD8CDB00136883 /* Security.framework */; };
 		9A61B8B319BD8CEB00136883 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A61B8B219BD8CEB00136883 /* SystemConfiguration.framework */; };
 		9A61B8B519BD8EF000136883 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A61B8B419BD8EF000136883 /* CoreData.framework */; };
-		9A7A695419C16154001931E2 /* GTLPersonendpointBooleanWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A694019C16154001931E2 /* GTLPersonendpointBooleanWrapper.m */; };
-		9A7A695519C16154001931E2 /* GTLPersonendpointConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A694219C16154001931E2 /* GTLPersonendpointConstants.m */; };
-		9A7A695619C16154001931E2 /* GTLPersonendpointDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A694419C16154001931E2 /* GTLPersonendpointDeviceInfo.m */; };
-		9A7A695719C16154001931E2 /* GTLPersonendpointPersonCards.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A694619C16154001931E2 /* GTLPersonendpointPersonCards.m */; };
-		9A7A695819C16154001931E2 /* GTLPersonendpointPersonCardsListWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A694819C16154001931E2 /* GTLPersonendpointPersonCardsListWrapper.m */; };
-		9A7A695919C16154001931E2 /* GTLPersonendpointPersonCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A694A19C16154001931E2 /* GTLPersonendpointPersonCredentials.m */; };
-		9A7A695A19C16154001931E2 /* GTLPersonendpointPersonInfoWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A694C19C16154001931E2 /* GTLPersonendpointPersonInfoWrapper.m */; };
-		9A7A695B19C16154001931E2 /* GTLPersonendpointPersonProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A694E19C16154001931E2 /* GTLPersonendpointPersonProfile.m */; };
-		9A7A695C19C16154001931E2 /* GTLQueryPersonendpoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A695019C16154001931E2 /* GTLQueryPersonendpoint.m */; };
-		9A7A695D19C16154001931E2 /* GTLServicePersonendpoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A695219C16154001931E2 /* GTLServicePersonendpoint.m */; };
+		9A77697619C3F5A0001CF255 /* GoogleOpenSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A77697319C3F5A0001CF255 /* GoogleOpenSource.framework */; };
+		9A77697719C3F5A0001CF255 /* GooglePlus.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9A77697419C3F5A0001CF255 /* GooglePlus.bundle */; };
+		9A77697819C3F5A0001CF255 /* GooglePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A77697519C3F5A0001CF255 /* GooglePlus.framework */; };
+		9A7A695419C16154001931E2 /* GTLPersonendpointBooleanWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A694019C16154001931E2 /* GTLPersonendpointBooleanWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9A7A695519C16154001931E2 /* GTLPersonendpointConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A694219C16154001931E2 /* GTLPersonendpointConstants.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9A7A695619C16154001931E2 /* GTLPersonendpointDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A694419C16154001931E2 /* GTLPersonendpointDeviceInfo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9A7A695719C16154001931E2 /* GTLPersonendpointPersonCards.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A694619C16154001931E2 /* GTLPersonendpointPersonCards.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9A7A695819C16154001931E2 /* GTLPersonendpointPersonCardsListWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A694819C16154001931E2 /* GTLPersonendpointPersonCardsListWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9A7A695919C16154001931E2 /* GTLPersonendpointPersonCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A694A19C16154001931E2 /* GTLPersonendpointPersonCredentials.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9A7A695A19C16154001931E2 /* GTLPersonendpointPersonInfoWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A694C19C16154001931E2 /* GTLPersonendpointPersonInfoWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9A7A695B19C16154001931E2 /* GTLPersonendpointPersonProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A694E19C16154001931E2 /* GTLPersonendpointPersonProfile.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9A7A695C19C16154001931E2 /* GTLQueryPersonendpoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A695019C16154001931E2 /* GTLQueryPersonendpoint.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9A7A695D19C16154001931E2 /* GTLServicePersonendpoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A695219C16154001931E2 /* GTLServicePersonendpoint.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9A8EBBF719BDCDEF003F5219 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8EBBF619BDCDEF003F5219 /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
@@ -76,9 +76,6 @@
 		9A61B7E619BD8A8400136883 /* AsanTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AsanTestTests-Info.plist"; sourceTree = "<group>"; };
 		9A61B7E819BD8A8400136883 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9A61B7EA19BD8A8400136883 /* AsanTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsanTestTests.m; sourceTree = "<group>"; };
-		9A61B81719BD8BB600136883 /* GoogleOpenSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleOpenSource.framework; sourceTree = "<group>"; };
-		9A61B81819BD8BB600136883 /* GooglePlus.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GooglePlus.bundle; sourceTree = "<group>"; };
-		9A61B81919BD8BB600136883 /* GooglePlus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GooglePlus.framework; sourceTree = "<group>"; };
 		9A61B8A419BD8C7F00136883 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		9A61B8A619BD8C8600136883 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		9A61B8A819BD8C9F00136883 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -88,6 +85,9 @@
 		9A61B8B019BD8CDB00136883 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		9A61B8B219BD8CEB00136883 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		9A61B8B419BD8EF000136883 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9A77697319C3F5A0001CF255 /* GoogleOpenSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleOpenSource.framework; sourceTree = "<group>"; };
+		9A77697419C3F5A0001CF255 /* GooglePlus.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GooglePlus.bundle; sourceTree = "<group>"; };
+		9A77697519C3F5A0001CF255 /* GooglePlus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GooglePlus.framework; sourceTree = "<group>"; };
 		9A7A693D19C16154001931E2 /* GTLPersonendpoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLPersonendpoint.h; sourceTree = "<group>"; };
 		9A7A693F19C16154001931E2 /* GTLPersonendpointBooleanWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLPersonendpointBooleanWrapper.h; sourceTree = "<group>"; };
 		9A7A694019C16154001931E2 /* GTLPersonendpointBooleanWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLPersonendpointBooleanWrapper.m; sourceTree = "<group>"; };
@@ -125,12 +125,12 @@
 				9A61B8AB19BD8CA600136883 /* CoreMotion.framework in Frameworks */,
 				9A61B8A919BD8C9F00136883 /* CoreLocation.framework in Frameworks */,
 				9A61B8A719BD8C8600136883 /* AssetsLibrary.framework in Frameworks */,
+				9A77697619C3F5A0001CF255 /* GoogleOpenSource.framework in Frameworks */,
 				9A61B8A519BD8C7F00136883 /* AddressBook.framework in Frameworks */,
-				9A61B87919BD8BB600136883 /* GooglePlus.framework in Frameworks */,
+				9A77697819C3F5A0001CF255 /* GooglePlus.framework in Frameworks */,
 				9A61B7C219BD8A8300136883 /* CoreGraphics.framework in Frameworks */,
 				9A8EBBF719BDCDEF003F5219 /* FacebookSDK.framework in Frameworks */,
 				9A61B7C419BD8A8300136883 /* UIKit.framework in Frameworks */,
-				9A61B87719BD8BB600136883 /* GoogleOpenSource.framework in Frameworks */,
 				9A61B7C019BD8A8300136883 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,9 +236,9 @@
 		9A61B81619BD8B9D00136883 /* GplusLib */ = {
 			isa = PBXGroup;
 			children = (
-				9A61B81719BD8BB600136883 /* GoogleOpenSource.framework */,
-				9A61B81819BD8BB600136883 /* GooglePlus.bundle */,
-				9A61B81919BD8BB600136883 /* GooglePlus.framework */,
+				9A77697319C3F5A0001CF255 /* GoogleOpenSource.framework */,
+				9A77697419C3F5A0001CF255 /* GooglePlus.bundle */,
+				9A77697519C3F5A0001CF255 /* GooglePlus.framework */,
 			);
 			name = GplusLib;
 			sourceTree = "<group>";
@@ -357,7 +357,7 @@
 			files = (
 				9A61B7D819BD8A8400136883 /* Images.xcassets in Resources */,
 				9A61B7CA19BD8A8300136883 /* InfoPlist.strings in Resources */,
-				9A61B87819BD8BB600136883 /* GooglePlus.bundle in Resources */,
+				9A77697719C3F5A0001CF255 /* GooglePlus.bundle in Resources */,
 				9A61B7D319BD8A8400136883 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +514,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/AsanTest",
@@ -541,6 +542,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/AsanTest",
